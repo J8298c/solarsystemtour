@@ -1,28 +1,5 @@
-#container {
-  width: 100%;
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
-  overflow: hidden;
-}
-html,
-body {
+body,
+html {
   margin: 0;
   padding: 0;
-}
-
-#slidingcontainer {
-  background: url('../assets/galaxy.jpg') repeat-x;
-  height: 100%;
-  width: 5076px;
-  animation: slide 60s linear infinite;
-}
-
-@keyframes slide {
-  0% {
-    transform: translate3d(0, 0, 0);
-  }
-  100% {
-    transform: translate3d(-1080px, 0, 0);
-  }
 }
